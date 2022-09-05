@@ -15,7 +15,6 @@ fun main(){
 
     println("")
 
-
     println("List : $immutableList2")
 
     println("")
