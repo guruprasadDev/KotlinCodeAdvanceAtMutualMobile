@@ -1,5 +1,5 @@
 fun main(){
-     val num = listOf(0,2,88,7,6,55,44,3,0,0)
+     val num = listOf(0,2,88,7,6,55,44,3,0,0,2,2)
 
     val setOfNum = num.toSet()
 
