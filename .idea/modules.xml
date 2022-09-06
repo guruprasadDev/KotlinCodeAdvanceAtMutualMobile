@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/KotlinCodeAdvanceAtMutualMobile.iml" filepath="$PROJECT_DIR$/KotlinCodeAdvanceAtMutualMobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KotlinCollectionCodeAtMutualMobile.iml" filepath="$PROJECT_DIR$/KotlinCollectionCodeAtMutualMobile.iml" />
     </modules>
   </component>
 </project>
