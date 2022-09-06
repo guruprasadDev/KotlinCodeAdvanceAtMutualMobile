@@ -1,3 +1,5 @@
+import javax.print.DocFlavor.STRING
+
 fun main(){
     val hashMapOfInt : HashMap<Int,String> = hashMapOf<Int,String>(
         1 to "One",
@@ -6,7 +8,7 @@ fun main(){
         4 to "Four",
         5 to "Five")
 
-    val hashMapOfStr : HashMap<String,String> = hashMapOf()
+    val hashMapOfStr : HashMap<String,String> = hashMapOf<String,String>()
 
     hashMapOfStr.put("Name","Guru Prasad")
     hashMapOfStr.put("Course","Android")
@@ -29,7 +31,7 @@ fun main(){
     println("******* Traversal of hashMapOf() String Type ********")
     for(element in hashMapOfStr.keys)
     {
-        println("Element at key $element = ${hashMapOfStr[element]}")
+        println("Key = "+element +", "+"Value = "+hashMapOfStr[element])
     }
 
     println("******* Traversal of hashMapOf() Any Type ********")
@@ -37,9 +39,5 @@ fun main(){
     {
         println("Element at key $element : ${hashMapOfAny[element]}")
     }
-
-
-
-
 
 }
